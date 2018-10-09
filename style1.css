@@ -1,0 +1,136 @@
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+
+  padding:15px 0 20px 0;
+}
+p {
+  padding: 5px 10px 10px 10px;
+}
+blockquote {
+  background-color: white;
+  color: black;
+  padding: 10px 0 10px 0;
+}
+a {
+  font-weight: bold;
+  padding-right: 15px;
+}
+ul {
+  list-style: none;
+  margin-right: 15px;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+div#header {
+  text-align: center;
+  background-color: black;
+  line-height: 2;
+  font-size: 200%;
+  color: white;
+}
+div#navigation {
+  text-align: center;
+  background-color: black;
+  width: 33%;
+  height: 400px;
+
+  display: inline-block;
+  float: left;
+}
+div#navigation-quote {
+  text-align: center;
+  background-color: black;
+  width: 33%;
+  height: 1379px;
+
+  display: inline-block;
+  float: left;
+}
+div#navigation-about {
+  text-align: center;
+  background-color: black;
+  width: 33%;
+  height: 2510px;
+
+  display: inline-block;
+  float: left;
+}
+div#navigation-main {
+  text-align: center;
+  background-color: black;
+  width: 33%;
+  height: 454px;
+
+  display: inline-block;
+  float: left;
+}
+div#navigation-ref {
+  text-align: center;
+  background-color: black;
+  width: 33%;
+  height: 555px;
+
+  display: inline-block;
+  float: left;
+}
+div#body-main {
+  text-align: center;
+  font-size: 200%;
+  background-color: black;
+  color: white;
+  display: inline-block; 
+  float: right;
+  width: 66%;
+}
+div#body-about {
+  text-align: left;
+  text-indent: 2em;
+  font-size: 200%;
+  background-color: black;
+  color: white;
+  display: inline-block; 
+  float: right;
+  width: 66%;
+}
+div#body-quote {
+  text-align: center;
+  text-indent: 2em;
+  font-size: 200%;
+  background-color: black;
+  color: white;
+  display: inline-block; 
+  float: right;
+  width: 66%;
+}
+div#body-ref {
+  text-align: left;
+  font-size: 200%;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  display: inline-block; 
+  float: right;
+  width: 66%;
+}
+.subtext {
+  font-size: 100%;
+}
+.bodytitle {
+  text-decoration: underline;
+  font-size: 200%;
+  color: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
